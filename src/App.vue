@@ -166,7 +166,40 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[36].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
+      <div class="oneProject">
+        <h2> Immersive room (Unity)</h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[39].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
+    <div class="part" id="short">
+      <h1 class="titlePart"> Short films </h1>
+      <div class="oneProject">
+        <h2> SuperVision </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[37].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Suis-moi </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[38].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Tu te fais des films </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[40].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="presentation">
+          <h3> Oh, you've made it this far!</h3>
+          <p>I hope you've enjoyed the little trip I've organised for you.</p>
+          <p>Thank you for your time.</p>
+          <p>Kisses :*</p>
+        </div>
   </main>
 
 </template>
@@ -213,9 +246,11 @@ export default {
         { type: 'image', url: '/images/labo.jpg', title: 'Lab'},
         { type: 'image', url: '/images/EXPORTED_TIM.jpg', title: 'Tim_Hortons'},
         { type: 'image', url: '/images/maison.jpg', title: 'Maison'},
-        { type: 'image', url: 'Fr8sFDADLhc', title: "blender"},
-
-
+        { type: 'youtube', url: 'Fr8sFDADLhc', title: "blender"},
+        { type: 'youtube', url: '7rOS_-JRPR0', title: "SuperVision"},
+        { type: 'youtube', url: '_0ECGu1mgd4', title: "Suis-moi"},
+        { type: 'youtube', url: 'EXLm_GHmlRI', title: "Immersive"},
+        { type: 'youtube', url: 'EkPQN0nGZ7M', title: "ttfdf"},
       ]
     }
   }
