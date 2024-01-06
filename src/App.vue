@@ -19,7 +19,7 @@
           <p>I hope you will enjoy your time spent on this website discovering all the projects I have done :)</p>
           <p>I'm a French student at the IMAC school (which stands for "Image, Multimedia, Audiovisual and Communication") and I'm currently involved in a student exchange programme in Canada.</p>
           <p>I do love discovering a lot of stuff, experimenting the unknown, and learning from people new ways of doing things and new ways of thinking.</p>
-          <p>You will see here projects of all kinds, from motion design to 3D, a bit of video games and, as a bonus, some short films. And sometimes you will see some fusions of those kinds</p>
+          <p>You will see here projects of all kinds, from motion design to 3D, a bit of video games and, as a bonus, some short films. Sometimes you will see some fusions of those kinds</p>
         </div>
         <a href="#contents" class="anchor2">
         <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
