@@ -19,7 +19,7 @@
           <p>I hope you will enjoy your time spent on this website discovering all the projects I have done :)</p>
           <p>I'm a French student at the IMAC school (which stands for "Image, Multimedia, Audiovisual and Communication") and I'm currently involved in a student exchange programme in Canada.</p>
           <p>I do love discovering a lot of stuff, experimenting the unknown, and learning from people new ways of doing things and new ways of thinking.</p>
-          <p>You will see here projects of all kinds, from motion design to 3D, a bit of video games and, as a bonus, some short films.</p>
+          <p>You will see here projects of all kinds, from motion design to 3D, a bit of video games and, as a bonus, some short films. And sometimes you will see some fusions of those kinds</p>
         </div>
         <a href="#contents" class="anchor2">
         <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -39,9 +39,33 @@
       </a>
     </div>
     <div class="part" id="motion">
-      <h1 class="titlePart">Motion Design</h1>
+      <h1 class="titlePart">Motion Design (After Effects)</h1>
       <div class="oneProject">
-        <h2> "Purple Hat" video clip</h2>
+        <h2> Video Mapping in Chambon-sur-Voueize - France</h2>
+        <div class="photos">
+          <img :src="projects[12].url" class="photo">
+          <img :src="projects[13].url" class="photo">
+          <img :src="projects[14].url" class="photo">
+        </div>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[15].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+          <p>for the full project click <a href="https://lesallumeursdereves.com/les-spectacles/creuse-confluence/">here</a></p>
+      </div>
+      <div class="oneProject">
+        <h2> Video Mapping in Annemasse - France</h2>
+        <div class="photos">
+          <img :src="projects[8].url" class="photo">
+          <img :src="projects[9].url" class="photo">
+          <img :src="projects[10].url" class="photo">
+        </div>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[11].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+          <p>for the full project click <a href="https://lesallumeursdereves.com/les-spectacles/annemasse-mairie/">here</a></p>
+      </div>
+      <div class="oneProject">
+        <h2> "Purple Hat" video clip (only on After Effects)</h2>
         <div class="photos">
           <img :src="projects[0].url" class="photo">
           <img :src="projects[1].url" class="photo">
@@ -51,8 +75,32 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[3].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
-
+      <div class="oneProject">
+        <h2> Parody project for the integration weekend of my university (cheap on purpose) </h2>
+        <div class="photos">
+          <img :src="projects[4].url" class="photo">
+          <img :src="projects[5].url" class="photo">
+          <img :src="projects[6].url" class="photo">
+        </div>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[7].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Some random stuff I made with After Effects</h2>
+        <div class="photos">
+          <img :src="projects[16].url" class="photo">
+          <img :src="projects[17].url" class="photo">
+          <img :src="projects[18].url" class="photo">
+        </div>
+        <div class="photos">
+          <img :src="projects[19].url" class="photo">
+          <img :src="projects[20].url" class="photo">
+          <img :src="projects[21].url" class="photo">
+        </div>
+      </div>
     </div>
+
     <!-- <div class="projects" id="projects">
       <div class="project" v-for="(project, index) in projects" :key="index">
         <template v-if="project.type === 'image'">
@@ -78,15 +126,30 @@ export default {
         { type: 'image', url: '/images/imagePurple2.png', title:'PurpleImage2'},
         { type: 'image', url: '/images/imagePurple3.png', title:'PurpleImage3'},
         { type: 'youtube', url: '1pqh85qjtHQ', title: 'PurpleHat'},
-        { type: 'youtube', url: 'LFr2LjZrts4', title: 'Test3'},
+        { type: 'image', url: '/images/pokemon1.png', title:'Pokemon1'},
+        { type: 'image', url: '/images/pokemon2.png', title:'Pokemon2'},
+        { type: 'image', url: '/images/pokemon3.png', title:'Pokemon3'},
+        { type: 'youtube', url: 'qarZGteDU_U', title: 'Pokemon'},
+        { type: 'image', url: '/images/Annemasse1.png', title:'Annemasse1'},
+        { type: 'image', url: '/images/Annemasse2.png', title:'Annemasse2'},
+        { type: 'image', url: '/images/Annemasse3.png', title:'Annemasse3'},
+        { type: 'youtube', url: 'lNpP05euPMs', title: 'Annemasse'},
+        { type: 'image', url: '/images/Chambon1.png', title:'Chambon1'},
+        { type: 'image', url: '/images/Chambon2.png', title:'Chambon2'},
+        { type: 'image', url: '/images/Chambon3.png', title:'Chambon3'},
+        { type: 'youtube', url: 'NfBUk3RDKKY', title: 'Chambon'},
+        { type: 'image', url: '/images/Course.gif', title: 'Course'},
+        { type: 'image', url: '/images/nullos.gif', title: 'BoucheB'},
+        { type: 'image', url: '/images/title_1.gif', title: 'BoucheB'},
+        { type: 'image', url: '/images/green_eye.gif', title: 'BoucheB'},
+        { type: 'image', url: '/images/ekko.gif', title: 'BoucheB'},
+        { type: 'image', url: '/images/white_eyes_1.gif', title: 'BoucheB'},
         { type: 'image', url: '/images/Cours_Recre1.jpg', title: 'Cours1'},
         { type: 'image', url: '/images/Cours_Recre2.jpg', title: 'Cours2'},
-        { type: 'image', url: '/images/Course.gif', title: 'Course'},
         { type: 'image', url: '/images/EXPORTED_TIM.jpg', title: 'Tim_Hortons'},
         { type: 'image', url: '/images/labo.jpg', title: 'Lab'},
         { type: 'image', url: '/images/maison.jpg', title: 'Maison'},
         { type: 'image', url: '/images/modelisation1.jpg', title: 'Screen_Blender'},
-        { type: 'image', url: '/images/nullos.gif', title: 'BoucheB'},
         { type: 'image', url: '/images/render_v2.jpg', title: 'Xerneas'},
         { type: 'image', url: '/images/rue.jpg', title: 'Street'},
 
@@ -321,7 +384,7 @@ img {
 .part{
   display: flex;
   flex-flow: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   width: 80%;
@@ -342,6 +405,7 @@ img {
   flex-flow: column;
   justify-content: center;
   max-width: 1200px;
+  margin-bottom: 10vh;
 }
 
 .photos{
