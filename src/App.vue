@@ -100,18 +100,73 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="projects" id="projects">
-      <div class="project" v-for="(project, index) in projects" :key="index">
-        <template v-if="project.type === 'image'">
-          <img :src="project.url">
-          <p>{{ project.title }}</p>
-        </template>
-        <template v-if="project.type === 'youtube'">
-          <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${project.url}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </template>
+    <div class="part" id="3D">
+      <h1 class="titlePart"> 3D : Animation, Modelling, Composition and lighting</h1>
+      <div class="oneProject">
+        <h2> Knight Animation Motion Capture (Unreal Engine)</h2>
+        <div class="photos">
+          <img :src="projects[22].url" class="photo">
+          <img :src="projects[23].url" class="photo">
+          <img :src="projects[24].url" class="photo">
+        </div>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[25].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
       </div>
-    </div> -->
+      <div class="oneProject">
+        <h2> Bat Animation (3DSmax - Arnold) </h2>
+        <div class="photos">
+          <img :src="projects[26].url" class="photo">
+          <img :src="projects[27].url" class="photo">
+          <img :src="projects[28].url" class="photo">
+        </div>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[29].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Ekko animation (Maya)</h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[30].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Micro-environment : Modelling Xerneas and Regice (3DSmax - Arnold) </h2>
+        <div class="photos">
+          <img :src="projects[31].url">
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Street composition and lightning (3DSmax - Arnold) </h2>
+        <div class="photos">
+          <img :src="projects[32].url">
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Lab composition and lightning (Maya - Unreal Engine) </h2>
+        <div class="photos">
+          <img :src="projects[33].url">
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Creation of a fan in Pop Art style (3DSmax - Blender)</h2>
+        <div class="photos">
+          <img :src="projects[34].url">
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Modelling of a simple house (3DSmax - Arnold)</h2>
+        <div class="photos">
+          <img :src="projects[35].url">
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Modelling and animation (Blender - Cycles)</h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[36].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
   </main>
 
 </template>
@@ -140,18 +195,25 @@ export default {
         { type: 'youtube', url: 'NfBUk3RDKKY', title: 'Chambon'},
         { type: 'image', url: '/images/Course.gif', title: 'Course'},
         { type: 'image', url: '/images/nullos.gif', title: 'BoucheB'},
-        { type: 'image', url: '/images/title_1.gif', title: 'BoucheB'},
-        { type: 'image', url: '/images/green_eye.gif', title: 'BoucheB'},
-        { type: 'image', url: '/images/ekko.gif', title: 'BoucheB'},
-        { type: 'image', url: '/images/white_eyes_1.gif', title: 'BoucheB'},
-        { type: 'image', url: '/images/Cours_Recre1.jpg', title: 'Cours1'},
-        { type: 'image', url: '/images/Cours_Recre2.jpg', title: 'Cours2'},
-        { type: 'image', url: '/images/EXPORTED_TIM.jpg', title: 'Tim_Hortons'},
-        { type: 'image', url: '/images/labo.jpg', title: 'Lab'},
-        { type: 'image', url: '/images/maison.jpg', title: 'Maison'},
-        { type: 'image', url: '/images/modelisation1.jpg', title: 'Screen_Blender'},
+        { type: 'image', url: '/images/title_1.gif', title: 'Title'},
+        { type: 'image', url: '/images/green_eye.gif', title: 'Green'},
+        { type: 'image', url: '/images/ekko.gif', title: 'Ekko'},
+        { type: 'image', url: '/images/white_eyes_1.gif', title: 'White'},
+        { type: 'image', url: '/images/chato1.png', title: 'chato1'},
+        { type: 'image', url: '/images/chato2.png', title: 'chato2'},
+        { type: 'image', url: '/images/chato3.png', title: 'chato3'},
+        { type: 'youtube', url: '7N5CIs5bvyk', title: "chato"},
+        { type: 'image', url: '/images/chauve1.png', title: 'chauve1'},
+        { type: 'image', url: '/images/chauve2.png', title: 'chauve2'},
+        { type: 'image', url: '/images/chauve3.png', title: 'chauve3'},
+        { type: 'youtube', url: 'nQPEu6F9Ogs', title: "chauve"},
+        { type: 'youtube', url: 'rzwgPHCdb10', title: "ekko"},
         { type: 'image', url: '/images/render_v2.jpg', title: 'Xerneas'},
         { type: 'image', url: '/images/rue.jpg', title: 'Street'},
+        { type: 'image', url: '/images/labo.jpg', title: 'Lab'},
+        { type: 'image', url: '/images/EXPORTED_TIM.jpg', title: 'Tim_Hortons'},
+        { type: 'image', url: '/images/maison.jpg', title: 'Maison'},
+        { type: 'image', url: 'Fr8sFDADLhc', title: "blender"},
 
 
       ]
@@ -405,7 +467,8 @@ img {
   flex-flow: column;
   justify-content: center;
   max-width: 1200px;
-  margin-bottom: 10vh;
+  width: 100%;
+  margin-bottom: 30vh;
 }
 
 .photos{
@@ -421,6 +484,7 @@ img {
 }
 
 .video{
+  width: 100%;
   margin-top: 15px;
   padding-bottom: 56.25%;
   position: relative;
