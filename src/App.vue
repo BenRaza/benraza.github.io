@@ -5,7 +5,7 @@
   <main>
     <div class="landing">
       <a href="#page2" class="portfolio"><h1>PORTFOLIO</h1></a>
-      <h2 class = "name">Benjamin Razafimanantsoa</h2>
+      <a href="#page2"><h2 class = "name">Benjamin Razafimanantsoa</h2></a>
       <a href="#page2" class="anchor">
         <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
@@ -28,77 +28,15 @@
       </a>
     </div>
     <div class="contents" id="contents">
-      <a href="#motion" class="contentWord">
-        <h2> Motion Design</h2>
-      </a>
       <a href="#3D" class="contentWord">
         <h2> 3D </h2>
+      </a>
+      <a href="#motion" class="contentWord">
+        <h2> Motion Design</h2>
       </a>
       <a href="#short" class="contentWord">
         <h2>Short Films</h2>
       </a>
-    </div>
-    <div class="part" id="motion">
-      <h1 class="titlePart">Motion Design (After Effects)</h1>
-      <!-- <div class="oneProject">
-        <h2> Video Mapping in Chambon-sur-Voueize - France</h2>
-        <div class="photos">
-          <img :src="projects[12].url" class="photo">
-          <img :src="projects[13].url" class="photo">
-          <img :src="projects[14].url" class="photo">
-        </div>
-        <div class="video">
-          <iframe :src="`https://www.youtube.com/embed/${projects[15].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-          <p>for the full project click <a href="https://lesallumeursdereves.com/les-spectacles/creuse-confluence/">here</a></p>
-      </div>
-      <div class="oneProject">
-        <h2> Video Mapping in Annemasse - France</h2>
-        <div class="photos">
-          <img :src="projects[8].url" class="photo">
-          <img :src="projects[9].url" class="photo">
-          <img :src="projects[10].url" class="photo">
-        </div>
-        <div class="video">
-          <iframe :src="`https://www.youtube.com/embed/${projects[11].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-          <p>for the full project click <a href="https://lesallumeursdereves.com/les-spectacles/annemasse-mairie/">here</a></p>
-      </div> -->
-      <div class="oneProject">
-        <h2> "Purple Hat" video clip (only on After Effects)</h2>
-        <div class="photos">
-          <img :src="projects[0].url" class="photo">
-          <img :src="projects[1].url" class="photo">
-          <img :src="projects[2].url" class="photo">
-        </div>
-        <div class="video">
-          <iframe :src="`https://www.youtube.com/embed/${projects[3].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="oneProject">
-        <h2> Parody project for the integration weekend of my university (cheap on purpose) </h2>
-        <div class="photos">
-          <img :src="projects[4].url" class="photo">
-          <img :src="projects[5].url" class="photo">
-          <img :src="projects[6].url" class="photo">
-        </div>
-        <div class="video">
-          <iframe :src="`https://www.youtube.com/embed/${projects[7].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="oneProject">
-        <h2> Some random stuff I made with After Effects</h2>
-        <div class="photos">
-          <img :src="projects[16].url" class="photo">
-          <img :src="projects[17].url" class="photo">
-          <img :src="projects[18].url" class="photo">
-        </div>
-        <div class="photos">
-          <img :src="projects[19].url" class="photo">
-          <img :src="projects[20].url" class="photo">
-          <img :src="projects[21].url" class="photo">
-        </div>
-      </div>
     </div>
     <div class="part" id="3D">
       <h1 class="titlePart"> 3D : Animation, Modelling, Composition and lighting</h1>
@@ -179,8 +117,76 @@
         </div>
       </div>
     </div>
+    <div class="part" id="motion">
+      <h1 class="titlePart">Motion Design (After Effects)</h1>
+      <!-- <div class="oneProject">
+        <h2> Video Mapping in Chambon-sur-Voueize - France</h2>
+        <div class="photos">
+          <img :src="projects[12].url" class="photo">
+          <img :src="projects[13].url" class="photo">
+          <img :src="projects[14].url" class="photo">
+        </div>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[15].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+          <p>for the full project click <a href="https://lesallumeursdereves.com/les-spectacles/creuse-confluence/">here</a></p>
+      </div>
+      <div class="oneProject">
+        <h2> Video Mapping in Annemasse - France</h2>
+        <div class="photos">
+          <img :src="projects[8].url" class="photo">
+          <img :src="projects[9].url" class="photo">
+          <img :src="projects[10].url" class="photo">
+        </div>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[11].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+          <p>for the full project click <a href="https://lesallumeursdereves.com/les-spectacles/annemasse-mairie/">here</a></p>
+      </div> -->
+      <div class="oneProject">
+        <h2> "Purple Hat" video clip (only on After Effects)</h2>
+        <div class="photos">
+          <img :src="projects[0].url" class="photo">
+          <img :src="projects[1].url" class="photo">
+          <img :src="projects[2].url" class="photo">
+        </div>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[3].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Parody project for the integration weekend of my university (cheap on purpose) </h2>
+        <div class="photos">
+          <img :src="projects[4].url" class="photo">
+          <img :src="projects[5].url" class="photo">
+          <img :src="projects[6].url" class="photo">
+        </div>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[7].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="oneProject">
+        <h2> Some random stuff I made with After Effects</h2>
+        <div class="photos">
+          <img :src="projects[16].url" class="photo">
+          <img :src="projects[17].url" class="photo">
+          <img :src="projects[18].url" class="photo">
+        </div>
+        <div class="photos">
+          <img :src="projects[19].url" class="photo">
+          <img :src="projects[20].url" class="photo">
+          <img :src="projects[21].url" class="photo">
+        </div>
+      </div>
+    </div>
     <div class="part" id="short">
       <h1 class="titlePart"> Short films </h1>
+      <div class="oneProject">
+        <h2> Tu te fais des films </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[40].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
       <div class="oneProject">
         <h2> SuperVision </h2>
         <div class="video">
@@ -191,12 +197,6 @@
         <h2> Suis-moi </h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[38].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="oneProject">
-        <h2> Tu te fais des films </h2>
-        <div class="video">
-          <iframe :src="`https://www.youtube.com/embed/${projects[40].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -245,7 +245,7 @@ export default {
         { type: 'image', url: '/images/chauve1.png', title: 'chauve1'},
         { type: 'image', url: '/images/chauve2.png', title: 'chauve2'},
         { type: 'image', url: '/images/chauve3.png', title: 'chauve3'},
-        { type: 'youtube', url: 'nQPEu6F9Ogs', title: "chauve"},
+        { type: 'youtube', url: 'I3PMl1Za9YU', title: "chauve"},
         { type: 'youtube', url: 'rzwgPHCdb10', title: "ekko"},
         { type: 'image', url: '/images/render_v2.jpg', title: 'Xerneas'},
         { type: 'image', url: '/images/rue.jpg', title: 'Street'},
@@ -254,9 +254,9 @@ export default {
         { type: 'image', url: '/images/maison.jpg', title: 'Maison'},
         { type: 'youtube', url: 'Fr8sFDADLhc', title: "blender"},
         { type: 'youtube', url: '7rOS_-JRPR0', title: "SuperVision"},
-        { type: 'youtube', url: '_0ECGu1mgd4', title: "Suis-moi"},
-        { type: 'youtube', url: 'EXLm_GHmlRI', title: "Immersive"},
-        { type: 'youtube', url: 'EkPQN0nGZ7M', title: "ttfdf"},
+        { type: 'youtube', url: 'Qst1GHPG2oo', title: "Suis-moi"},
+        { type: 'youtube', url: '1J8_J2mUvZU', title: "Immersive"},
+        { type: 'youtube', url: 'weo86A0P76I', title: "ttfdf"},
         { type: 'youtube', url: 'Hb6OUEwCYPc', title: "sawmill"},
       ]
     }
