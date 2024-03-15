@@ -52,6 +52,12 @@
         </div>
       </div>
       <div class="oneProject">
+        <h2> SawMill Killers (Unreal Engine)</h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[41].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="oneProject">
         <h2> Bat Animation (3DSmax - Arnold) </h2>
         <div class="photos">
           <img :src="projects[26].url" class="photo">
@@ -102,12 +108,6 @@
         <h2> Modelling and animation (Blender - Cycles)</h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[36].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="oneProject">
-        <h2> SawMill Killers (Unreal Engine)</h2>
-        <div class="video">
-          <iframe :src="`https://www.youtube.com/embed/${projects[41].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
       <div class="oneProject">
@@ -165,7 +165,7 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[7].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="oneProject">
+      <!-- <div class="oneProject">
         <h2> Some random stuff I made with After Effects</h2>
         <div class="photos">
           <img :src="projects[16].url" class="photo">
@@ -177,7 +177,7 @@
           <img :src="projects[20].url" class="photo">
           <img :src="projects[21].url" class="photo">
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="part" id="short">
       <h1 class="titlePart"> Short films </h1>
