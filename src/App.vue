@@ -269,7 +269,7 @@ export default {
         { type: 'youtube', url: '1J8_J2mUvZU', title: "Immersive"},
         { type: 'youtube', url: 'weo86A0P76I', title: "ttfdf"},
         { type: 'youtube', url: 'Hb6OUEwCYPc', title: "sawmill"},
-        { type: 'youtube', url: 'mn1YCHEgb0U', title: "reel"},
+        { type: 'youtube', url: 'wcUwhi2SKMA', title: "reel"},
       ]
     }
   }
