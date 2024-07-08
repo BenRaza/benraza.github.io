@@ -19,7 +19,7 @@
           <p>I hope you will enjoy your time spent on this website discovering all the projects I have done :)</p>
           <p>I'm a French student at the IMAC school (which stands for "Image, Multimedia, Audiovisual and Communication") and I just finished my student exchange programme in Canada.</p>
           <p>I do love discovering a lot of stuff, experimenting the unknown, and learning from people new ways of doing things and new ways of thinking.</p>
-          <p>You will see here projects of all kinds, from motion design to 3D, video games and, as a bonus, some short films. Sometimes you will see some fusions of those kinds</p>
+          <p>You will see here projects of all kinds, from video games, 3D creations, motion design and, as a bonus, some short films. Sometimes you will see some fusions of those kinds</p>
         </div>
         <a href="#reel" class="anchor2">
           <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -39,8 +39,11 @@
       </a>
     </div>
     <div class="contents" id="contents">
+      <a href="#VG" class="contentWord">
+        <h2> Video Game</h2>
+      </a>
       <a href="#3D" class="contentWord">
-        <h2> 3D </h2>
+        <h2> 3D & Cinematic </h2>
       </a>
       <a href="#motion" class="contentWord">
         <h2> Motion Design</h2>
@@ -48,6 +51,41 @@
       <a href="#short" class="contentWord">
         <h2>Short Films</h2>
       </a>
+    </div>
+    <div class="part" id="VG">
+      <h1 class="titlePart"> Video Games </h1>
+      <div class="oneProject">
+        <h2> Bring me red (Unreal Engine) </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[43].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h3></h3>
+        <h3> My roles in this game : Programming (main role) & 3D assets modelling </h3>
+      </div>
+      <div class="oneProject">
+        <h2> Trapped (Unreal Engine) </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[44].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h3></h3>
+        <h3> My role in this game : Programming </h3>
+      </div>
+      <div class="oneProject">
+        <a href="https://thepaqui.itch.io/gcc0-let-it-burn" target="_blank"><h2> Let it Burn (Unity) </h2></a>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[45].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h3></h3>
+        <h3> My roles in this game : Visuals, Shaders, VFX, Physics & Unity tools </h3>
+      </div>
+      <div class="oneProject">
+        <h2> La Volonté de Fer (Unity) </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[46].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h3></h3>
+        <h3> My role in this game : Programming </h3>
+      </div>
     </div>
     <div class="part" id="3D">
       <h1 class="titlePart"> 3D : Animation, Modelling, Composition and lighting</h1>
@@ -252,7 +290,7 @@ export default {
         { type: 'image', url: '/images/chato1.png', title: 'chato1'},
         { type: 'image', url: '/images/chato2.png', title: 'chato2'},
         { type: 'image', url: '/images/chato3.png', title: 'chato3'},
-        { type: 'youtube', url: '7N5CIs5bvyk', title: "chato"},
+        { type: 'youtube', url: 'i-bn4UjC4d0', title: "chato"},
         { type: 'image', url: '/images/chauve1.png', title: 'chauve1'},
         { type: 'image', url: '/images/chauve2.png', title: 'chauve2'},
         { type: 'image', url: '/images/chauve3.png', title: 'chauve3'},
@@ -270,6 +308,10 @@ export default {
         { type: 'youtube', url: 'weo86A0P76I', title: "ttfdf"},
         { type: 'youtube', url: 'Hb6OUEwCYPc', title: "sawmill"},
         { type: 'youtube', url: 'wcUwhi2SKMA', title: "reel"},
+        { type: 'youtube', url: 'JMcMEAVO0t4', title: "BMR"},
+        { type: 'youtube', url: 'P_ldPxA4BQ4', title: "Trapped"},
+        { type: 'youtube', url: 'ToTaRDp75Mk', title: "LetItBurn"},
+        { type: 'youtube', url: 'Sqhs2Dcvgvg', title: "LVDF"},
       ]
     }
   }
