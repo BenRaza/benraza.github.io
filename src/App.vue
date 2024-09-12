@@ -53,7 +53,13 @@
       </a>
     </div>
     <div class="part" id="VG">
-      <h1 class="titlePart"> Video Games </h1>
+      <h1 class="titlePart"> Video Games and Immersive Experience</h1>
+      <div class="oneProject">
+        <h2> Immersive Experience : StoryTail </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[47].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
       <div class="oneProject">
         <h2> Bring me red (Unreal Engine) </h2>
         <div class="video">
@@ -312,6 +318,7 @@ export default {
         { type: 'youtube', url: 'P_ldPxA4BQ4', title: "Trapped"},
         { type: 'youtube', url: 'ToTaRDp75Mk', title: "LetItBurn"},
         { type: 'youtube', url: 'Sqhs2Dcvgvg', title: "LVDF"},
+        { type: 'youtube', url: 'HgF5Qf3tiyE', title: "StoryTail"},
       ]
     }
   }
