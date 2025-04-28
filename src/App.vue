@@ -583,7 +583,7 @@ img {
   justify-content: center;
   max-width: 1200px;
   width: 100%;
-  margin-bottom: 30vh;
+  margin-bottom: 10vh;
 }
 
 .photos{

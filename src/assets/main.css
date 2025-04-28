@@ -169,13 +169,14 @@ table {
 
 .stars {
 	z-index: -1;
-	background: #000 url('https://i.ibb.co/g91MwKZ/stars.png') repeat top center;
+	background: #000;
+	/* background: #000 url('https://i.ibb.co/g91MwKZ/stars.png') repeat top center; */
 }
 
 .twinkling{
-	z-index: 0;
+	/* z-index: 0;
 	background:transparent url('https://i.ibb.co/pnJQm6V/twinkling.png') repeat top center;
-	animation: move-twink-back 200s linear infinite;
+	animation: move-twink-back 200s linear infinite; */
 }
 
 @keyframes move-twink-back {
