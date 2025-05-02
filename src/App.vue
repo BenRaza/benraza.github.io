@@ -72,7 +72,7 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[43].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <h3></h3>
-        <h3> My roles in this game : Programming (main role) & 3D assets modelling </h3>
+        <!-- <h3> My roles in this game : Programming (main role) & 3D assets modelling </h3> -->
       </div>
       <div class="oneProject">
         <h2> Trapped (Unreal Engine) </h2>
@@ -187,6 +187,13 @@
     </div>
     <div class="part" id="motion">
       <h1 class="titlePart">Motion Design (After Effects)</h1>
+      <div class="oneProject">
+        <h2> Doga </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[50].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+          <p>for the full project click <a href="https://lesallumeursdereves.com/les-spectacles/creuse-confluence/">here</a></p>
+      </div>
       <div class="oneProject">
         <h2> Video Mapping in Chambon-sur-Voueize - France</h2>
         <div class="photos">
@@ -334,6 +341,7 @@ export default {
         { type: 'youtube', url: 'HgF5Qf3tiyE', title: "StoryTail"},
         { type: 'youtube', url: 'H0rvbYqONpg', title: "StageSIMAPTIC"},
         { type: 'youtube', url: 'e_RMhFvnhXE', title: "SpeedyDelivery"},
+        { type: 'youtube', url: 'zfWhahruxG0', title: "Doga"},
       ]
     }
   }
