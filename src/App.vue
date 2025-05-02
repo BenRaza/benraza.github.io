@@ -26,8 +26,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
           </svg>
         </a>
-    </div>
-    <div class="reel" id="reel">
+      </div>
+      <div class="reel" id="reel">
       <h2> Here is my ShowReel </h2>
       <div class="video">
         <iframe :src="`https://www.youtube.com/embed/${projects[42].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -80,7 +80,7 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[44].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <h3></h3>
-        <h3> My role in this game : Programming </h3>
+        <!-- <h3> My role in this game : Programming </h3> -->
       </div>
       <div class="oneProject">
         <a href="https://thepaqui.itch.io/gcc0-let-it-burn" target="_blank"><h2> Let it Burn (Unity) </h2></a>
@@ -88,7 +88,7 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[45].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <h3></h3>
-        <h3> My roles in this game : Visuals, Shaders, VFX, Physics & Unity tools </h3>
+        <!-- <h3> My roles in this game : Visuals, Shaders, VFX, Physics & Unity tools </h3> -->
       </div>
       <div class="oneProject">
         <h2> La Volonté de Fer (Unity) </h2>
@@ -96,7 +96,7 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[46].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <h3></h3>
-        <h3> My role in this game : Programming </h3>
+        <!-- <h3> My role in this game : Programming </h3> -->
       </div>
       <div class="oneProject">
         <h2> Speedy Delivery (Unity) </h2>
