@@ -17,7 +17,7 @@
         <div class="presentation">
           <h3> Hello there !</h3>
           <p>I hope you will enjoy your time spent on this website discovering all the projects I have done :)</p>
-          <p>I'm a French student at the IMAC school (which stands for "Image, Multimedia, Audiovisual and Communication") and I just finished my student exchange programme in Canada.</p>
+          <p>I'm finishing my degree at the IMAC school ("Image, Multimedia, Audiovisual and Communication") and I did a student exchange programme in Québec at the UQAT university.</p>
           <p>I do love discovering a lot of stuff, experimenting the unknown, and learning from people new ways of doing things and new ways of thinking.</p>
           <p>You will see here projects of all kinds, from video games, 3D creations, motion design and, as a bonus, some short films. Sometimes you will see some fusions of those kinds</p>
         </div>
@@ -43,7 +43,7 @@
         <h2> Video Game</h2>
       </a>
       <a href="#3D" class="contentWord">
-        <h2> 3D & Cinematic </h2>
+        <h2> 3D </h2>
       </a>
       <a href="#motion" class="contentWord">
         <h2> Motion Design</h2>
@@ -54,6 +54,12 @@
     </div>
     <div class="part" id="VG">
       <h1 class="titlePart"> Video Games and Immersive Experience</h1>
+      <div class="oneProject">
+        <h2> Internship : SIMAPTIC </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[48].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
       <div class="oneProject">
         <h2> Immersive Experience : StoryTail </h2>
         <div class="video">
@@ -91,6 +97,13 @@
         </div>
         <h3></h3>
         <h3> My role in this game : Programming </h3>
+      </div>
+      <div class="oneProject">
+        <h2> Speedy Delivery (Unity) </h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[49].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h3></h3>
       </div>
     </div>
     <div class="part" id="3D">
@@ -165,12 +178,12 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[36].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="oneProject">
+      <!-- <div class="oneProject">
         <h2> Immersive room (Unity) - Project in production</h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[39].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="part" id="motion">
       <h1 class="titlePart">Motion Design (After Effects)</h1>
@@ -210,7 +223,7 @@
         </div>
       </div>
       <div class="oneProject">
-        <h2> Parody project for the integration weekend of my university (cheap on purpose) </h2>
+        <h2> Parody project for the integration weekend of my university </h2>
         <div class="photos">
           <img :src="projects[4].url" class="photo">
           <img :src="projects[5].url" class="photo">
@@ -314,11 +327,13 @@ export default {
         { type: 'youtube', url: 'weo86A0P76I', title: "ttfdf"},
         { type: 'youtube', url: 'Hb6OUEwCYPc', title: "sawmill"},
         { type: 'youtube', url: 'wcUwhi2SKMA', title: "reel"},
-        { type: 'youtube', url: 'JMcMEAVO0t4', title: "BMR"},
+        { type: 'youtube', url: 'd94D-ItDe8o', title: "BMR"},
         { type: 'youtube', url: 'P_ldPxA4BQ4', title: "Trapped"},
         { type: 'youtube', url: 'ToTaRDp75Mk', title: "LetItBurn"},
         { type: 'youtube', url: 'Sqhs2Dcvgvg', title: "LVDF"},
         { type: 'youtube', url: 'HgF5Qf3tiyE', title: "StoryTail"},
+        { type: 'youtube', url: 'H0rvbYqONpg', title: "StageSIMAPTIC"},
+        { type: 'youtube', url: 'e_RMhFvnhXE', title: "SpeedyDelivery"},
       ]
     }
   }
@@ -333,7 +348,8 @@ main {
   flex-flow: column nowrap;
   align-items: center;
   margin-bottom: 100px;
-  font-family: 'Salsa', cursive;
+  font-family: "Cal Sans", sans-serif;
+  text-transform: uppercase;;
 }
 
 h1 {
