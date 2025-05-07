@@ -15,11 +15,11 @@
       <div class="page2" id="page2">
         <h2 class="who"> Who am I ? </h2>
         <div class="presentation">
-          <h3> Hello there !</h3>
+          <h3> Hello there!</h3>
           <p>I hope you will enjoy your time spent on this website discovering all the projects I have done :)</p>
-          <p>I'm finishing my degree at the IMAC school ("Image, Multimedia, Audiovisual and Communication") and I did a student exchange programme in Québec at the UQAT university.</p>
-          <p>I do love discovering a lot of stuff, experimenting the unknown, and learning from people new ways of doing things and new ways of thinking.</p>
-          <p>You will see here projects of all kinds, from video games, 3D creations, motion design and, as a bonus, some short films. Sometimes you will see some fusions of those kinds</p>
+          <p>I'm finishing my degree at the IMAC school ("Image, Multimedia, Audiovisual and Communication") and I did a student exchange program in Québec at the UQAT university.</p>
+          <p>I love discovering a lot of stuff, experimenting the unknown, and learning from people new ways of doing things and new ways of thinking.</p>
+          <p>You will see here projects of all kinds, from video games, 3D creations, motion design and, as a bonus, some short films. Sometimes you will see some fusions of those.</p>
         </div>
         <a href="#reel" class="anchor2">
           <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
