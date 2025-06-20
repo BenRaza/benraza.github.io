@@ -72,7 +72,6 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[43].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <h3></h3>
-        <!-- <h3> My roles in this game : Programming (main role) & 3D assets modelling </h3> -->
       </div>
       <div class="oneProject">
         <h2> Trapped (Unreal Engine) </h2>
@@ -80,7 +79,6 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[44].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <h3></h3>
-        <!-- <h3> My role in this game : Programming </h3> -->
       </div>
       <div class="oneProject">
         <a href="https://thepaqui.itch.io/gcc0-let-it-burn" target="_blank"><h2> Let it Burn (Unity) </h2></a>
@@ -88,7 +86,6 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[45].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <h3></h3>
-        <!-- <h3> My roles in this game : Visuals, Shaders, VFX, Physics & Unity tools </h3> -->
       </div>
       <div class="oneProject">
         <h2> La Volonté de Fer (Unity) </h2>
@@ -96,7 +93,6 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[46].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <h3></h3>
-        <!-- <h3> My role in this game : Programming </h3> -->
       </div>
       <div class="oneProject">
         <h2> Speedy Delivery (Unity) </h2>
@@ -110,11 +106,6 @@
       <h1 class="titlePart"> 3D : Animation, Modelling, Composition and lighting</h1>
       <div class="oneProject">
         <h2> Knight Animation Motion Capture (Unreal Engine)</h2>
-        <div class="photos">
-          <img :src="projects[22].url" class="photo">
-          <img :src="projects[23].url" class="photo">
-          <img :src="projects[24].url" class="photo">
-        </div>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[25].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -127,11 +118,6 @@
       </div>
       <div class="oneProject">
         <h2> Bat Animation (3DSmax - Arnold) </h2>
-        <div class="photos">
-          <img :src="projects[26].url" class="photo">
-          <img :src="projects[27].url" class="photo">
-          <img :src="projects[28].url" class="photo">
-        </div>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[29].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -178,12 +164,6 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[36].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
-      <!-- <div class="oneProject">
-        <h2> Immersive room (Unity) - Project in production</h2>
-        <div class="video">
-          <iframe :src="`https://www.youtube.com/embed/${projects[39].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </div> -->
     </div>
     <div class="part" id="motion">
       <h1 class="titlePart">Motion Design (After Effects)</h1>
@@ -192,15 +172,9 @@
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[50].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-          <p>for the full project click <a href="https://lesallumeursdereves.com/les-spectacles/creuse-confluence/">here</a></p>
       </div>
       <div class="oneProject">
         <h2> Video Mapping in Chambon-sur-Voueize - France</h2>
-        <div class="photos">
-          <img :src="projects[12].url" class="photo">
-          <img :src="projects[13].url" class="photo">
-          <img :src="projects[14].url" class="photo">
-        </div>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[15].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -208,11 +182,6 @@
       </div>
       <div class="oneProject">
         <h2> Video Mapping in Annemasse - France</h2>
-        <div class="photos">
-          <img :src="projects[8].url" class="photo">
-          <img :src="projects[9].url" class="photo">
-          <img :src="projects[10].url" class="photo">
-        </div>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[11].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -220,39 +189,16 @@
       </div>
       <div class="oneProject">
         <h2> "Purple Hat" video clip (only on After Effects)</h2>
-        <div class="photos">
-          <img :src="projects[0].url" class="photo">
-          <img :src="projects[1].url" class="photo">
-          <img :src="projects[2].url" class="photo">
-        </div>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[3].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
       <div class="oneProject">
         <h2> Parody project for the integration weekend of my university </h2>
-        <div class="photos">
-          <img :src="projects[4].url" class="photo">
-          <img :src="projects[5].url" class="photo">
-          <img :src="projects[6].url" class="photo">
-        </div>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[7].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
-      <!-- <div class="oneProject">
-        <h2> Some random stuff I made with After Effects</h2>
-        <div class="photos">
-          <img :src="projects[16].url" class="photo">
-          <img :src="projects[17].url" class="photo">
-          <img :src="projects[18].url" class="photo">
-        </div>
-        <div class="photos">
-          <img :src="projects[19].url" class="photo">
-          <img :src="projects[20].url" class="photo">
-          <img :src="projects[21].url" class="photo">
-        </div>
-      </div> -->
     </div>
     <div class="part" id="short">
       <h1 class="titlePart"> Short films </h1>
