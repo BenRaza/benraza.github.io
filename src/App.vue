@@ -13,13 +13,13 @@
       </a>
     </div>
       <div class="page2" id="page2">
-        <h2 class="who"> Who am I ? </h2>
+        <h2 class="who"> Qui suis-je ? </h2>
         <div class="presentation">
-          <h3> Hello there!</h3>
-          <p>I hope you will enjoy your time spent on this website discovering all the projects I have done :)</p>
-          <p>I'm finishing my degree at the IMAC school ("Image, Multimedia, Audiovisual and Communication") and I did a student exchange program in Québec at the UQAT university.</p>
-          <p>I love discovering a lot of stuff, experimenting the unknown, and learning from people new ways of doing things and new ways of thinking.</p>
-          <p>You will see here projects of all kinds, from video games, 3D creations, motion design and, as a bonus, some short films. Sometimes you will see some fusions of those.</p>
+          <h3> Salutations !</h3>
+          <p>J'espère que vous passerez un bon moment sur ce site en découvrant tous les projets que j'ai réalisés :)</p>
+          <p>J'ai terminé mon cursus à l'école d'ingénieur IMAC (« Image, Multimédia, Audiovisuel et Communication ») et j'ai effectué un échange universitaire au Québec à l'UQAT en création numérique.</p>
+          <p>J'aime découvrir beaucoup de choses, expérimenter l'inconnu et apprendre des gens de nouvelles façons de faire et de penser.</p>
+          <p>Vous verrez ici des projets de toutes sortes, des jeux vidéo, des créations en 3D, du motion design et, en prime, quelques courts métrages. Parfois, vous verrez des fusions de tout cela.</p>
         </div>
         <a href="#reel" class="anchor2">
           <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -28,7 +28,7 @@
         </a>
       </div>
       <div class="reel" id="reel">
-      <h2> Here is my ShowReel </h2>
+      <h2> ShowReel </h2>
       <div class="video">
         <iframe :src="`https://www.youtube.com/embed/${projects[42].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
@@ -40,7 +40,7 @@
     </div>
     <div class="contents" id="contents">
       <a href="#VG" class="contentWord">
-        <h2> Video Game</h2>
+        <h2> Jeu Video</h2>
       </a>
       <a href="#3D" class="contentWord">
         <h2> 3D </h2>
@@ -49,19 +49,19 @@
         <h2> Motion Design</h2>
       </a>
       <a href="#short" class="contentWord">
-        <h2>Short Films</h2>
+        <h2>Film</h2>
       </a>
     </div>
     <div class="part" id="VG">
-      <h1 class="titlePart"> Video Games and Immersive Experience</h1>
+      <h1 class="titlePart"> Jeux Vidéos et Expériences Immersives</h1>
       <div class="oneProject">
-        <h2> Internship : SIMAPTIC </h2>
+        <h2> Stage : SIMAPTIC </h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[48].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
       <div class="oneProject">
-        <h2> Immersive Experience : StoryTail </h2>
+        <h2> Experience Immersive : StoryTail </h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[47].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -103,9 +103,9 @@
       </div>
     </div>
     <div class="part" id="3D">
-      <h1 class="titlePart"> 3D : Animation, Modelling, Composition and lighting</h1>
+      <h1 class="titlePart"> 3D : Animation, Modelisation, Composition and Eclairage</h1>
       <div class="oneProject">
-        <h2> Knight Animation Motion Capture (Unreal Engine)</h2>
+        <h2> Animation Cinematique et Motion Capture (Unreal Engine)</h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[25].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -116,50 +116,51 @@
           <iframe :src="`https://www.youtube.com/embed/${projects[41].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
+      
       <div class="oneProject">
-        <h2> Bat Animation (3DSmax - Arnold) </h2>
+        <h2> Réveil aux aurores (3DSmax - Arnold) </h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[29].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
       <div class="oneProject">
-        <h2> Ekko animation (Maya)</h2>
+        <h2> Animation d'Ekko (Maya)</h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[30].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
       <div class="oneProject">
-        <h2> Micro-environment : Modelling Xerneas and Regice (3DSmax - Arnold) </h2>
+        <h2> Micro-environment : Modélisation de Xerneas et Regice (3DSmax - Arnold) </h2>
         <div class="photos">
           <img :src="projects[31].url">
         </div>
       </div>
       <div class="oneProject">
-        <h2> Street composition and lightning (3DSmax - Arnold) </h2>
+        <h2> Composition et éclairage (3DSmax - Arnold) </h2>
         <div class="photos">
           <img :src="projects[32].url">
         </div>
       </div>
       <div class="oneProject">
-        <h2> Lab composition and lightning (Maya - Unreal Engine) </h2>
+        <h2> Composition et éclairage (Maya - Unreal Engine) </h2>
         <div class="photos">
           <img :src="projects[33].url">
         </div>
       </div>
       <div class="oneProject">
-        <h2> Creation of a fan in Pop Art style (3DSmax - Blender)</h2>
+        <h2> Modelisation d'un faux ventilateur style Pop Art (3DSmax - Blender)</h2>
         <div class="photos">
           <img :src="projects[34].url">
         </div>
       </div>
       <div class="oneProject">
-        <h2> Modelling of a simple house (3DSmax - Arnold)</h2>
+        <h2> Modelisation d'une maison simpliste (3DSmax - Arnold)</h2>
         <div class="photos">
           <img :src="projects[35].url">
         </div>
       </div>
       <div class="oneProject">
-        <h2> Modelling and animation (Blender - Cycles)</h2>
+        <h2> Modelisation et Animation (Blender - Cycles)</h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[36].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -174,27 +175,27 @@
         </div>
       </div>
       <div class="oneProject">
-        <h2> Video Mapping in Chambon-sur-Voueize - France</h2>
+        <h2> Video Mapping à Chambon-sur-Voueize - France</h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[15].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-          <p>for the full project click <a href="https://lesallumeursdereves.com/les-spectacles/creuse-confluence/">here</a></p>
+          <p> projet entier ici <a href="https://lesallumeursdereves.com/les-spectacles/creuse-confluence/">here</a></p>
       </div>
       <div class="oneProject">
-        <h2> Video Mapping in Annemasse - France</h2>
+        <h2> Video Mapping à Annemasse - France</h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[11].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-          <p>for the full project click <a href="https://lesallumeursdereves.com/les-spectacles/annemasse-mairie/">here</a></p>
+          <p> projet entier ici <a href="https://lesallumeursdereves.com/les-spectacles/annemasse-mairie/">here</a></p>
       </div>
       <div class="oneProject">
-        <h2> "Purple Hat" video clip (only on After Effects)</h2>
+        <h2> "Purple Hat" clip video (After Effects)</h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[3].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
       <div class="oneProject">
-        <h2> Parody project for the integration weekend of my university </h2>
+        <h2> Projet parodique Pokemon pour le week-end d'intégration de mon université </h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[7].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -221,12 +222,9 @@
         </div>
       </div>
     </div>
-    <div class="presentation">
-          <h3> Oh, you've made it this far!</h3>
-          <p>I hope you've enjoyed the little trip I've organised for you.</p>
-          <p>Thank you for your time.</p>
-          <p>Kisses :*</p>
-        </div>
+    <div>
+          <h3> FIN </h3>
+    </div>
   </main>
 
 </template>
