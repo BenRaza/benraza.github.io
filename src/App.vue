@@ -277,7 +277,7 @@ export default {
         { type: 'youtube', url: '1J8_J2mUvZU', title: "Immersive"},
         { type: 'youtube', url: 'weo86A0P76I', title: "ttfdf"},
         { type: 'youtube', url: 'Hb6OUEwCYPc', title: "sawmill"},
-        { type: 'youtube', url: 'wcUwhi2SKMA', title: "reel"},
+        { type: 'youtube', url: 'w-msBr0SvDU', title: "reel"},
         { type: 'youtube', url: 'd94D-ItDe8o', title: "BMR"},
         { type: 'youtube', url: 'P_ldPxA4BQ4', title: "Trapped"},
         { type: 'youtube', url: 'ToTaRDp75Mk', title: "LetItBurn"},
