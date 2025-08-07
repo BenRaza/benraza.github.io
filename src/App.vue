@@ -111,6 +111,12 @@
         </div>
       </div>
       <div class="oneProject">
+        <h2> Machinima GTA V</h2>
+        <div class="video">
+          <iframe :src="`https://www.youtube.com/embed/${projects[51].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="oneProject">
         <h2> SawMill Killers (Unreal Engine)</h2>
         <div class="video">
           <iframe :src="`https://www.youtube.com/embed/${projects[41].url}?rel=0`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -286,6 +292,7 @@ export default {
         { type: 'youtube', url: 'H0rvbYqONpg', title: "StageSIMAPTIC"},
         { type: 'youtube', url: 'e_RMhFvnhXE', title: "SpeedyDelivery"},
         { type: 'youtube', url: 'zfWhahruxG0', title: "Doga"},
+        { type: 'youtube', url: 'QBIDHWLAJy4', title: "GTAV"},
       ]
     }
   }
